@@ -1,0 +1,11 @@
+.MainPage{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #f7ff00, #db36a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#ffffff;
+  h1{
+    font-size: 50px;
+  }
+}

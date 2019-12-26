@@ -1,0 +1,22 @@
+.TopBar{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #FF8800;
+  border-radius: 5px;
+}
+
+.TopBar div{
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.TopBar input:focus{
+  border: 1px solid #81c784;
+}
+
+.TopBar button{
+  background: #00C851;
+  color: white;
+  border: 1px solid #81c784;
+}

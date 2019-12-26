@@ -1,0 +1,69 @@
+.Post {
+  background: linear-gradient(to right, #283c86, #45a247);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.singlePost {
+  width: 500px;
+  margin-top: 150px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+
+}
+
+.postTop {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid #ffffff;
+  background: #bdbdbd94;
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.postBody {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.postFooter {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  button {
+    background: #ff5722;
+    font-size: 18px;
+    color: #ffffff;
+    border: 2px solid #d84315;
+    padding:10px 30px;
+    display: flex;
+    align-items: center;
+
+  }
+  a {
+    background: #039be5;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 5px;
+    padding:10px 30px;
+    border: 2px solid #0277bd;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    &:active {
+      box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.356);
+    }
+  }
+}

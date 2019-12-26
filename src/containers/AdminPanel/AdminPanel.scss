@@ -1,0 +1,87 @@
+.AdminPanel{
+  background: linear-gradient(to right, #283c86, #45a247); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form{
+    border: 2px solid #fff;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+    }
+ 
+  }
+}
+
+.select {
+  position: relative;
+  margin-bottom: 10px;
+  select{
+    display: block;
+    width: 100%; /* от ширины блока div */
+    padding: .75rem 2.5rem .75rem 1rem;/* отступы от текста до рамки */
+    background: none; /* убираем фон */
+    border: 1px solid #ccc; /* рамка */
+    border-radius: 3px;/* скругление полей формы */
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем дефолнтные стрелочки */
+    font-family: inherit;/* наследует от родителя */
+    font-size: 1rem;
+    color: #000;
+  }
+  &:after{
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #000 transparent transparent transparent;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    z-index: 1;
+    margin-top: -3px;
+  }
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    border:1px solid #cecece;
+    padding-left: 10px;
+    margin-top: 5px;
+    &:focus{
+      outline: none;
+      border: 1px solid #ccc;
+    }
+  }
+  span{
+    margin-top: 5px;
+  }
+  textarea{
+    height: 200px;
+    resize: none;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  button{
+    margin: 0px auto;
+  }
+ }

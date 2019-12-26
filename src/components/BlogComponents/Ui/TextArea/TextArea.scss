@@ -1,0 +1,9 @@
+.TextArea{
+
+  textarea{
+    outline: none;
+    &:focus{
+      border: 1px solid gray;
+    }
+  }
+}

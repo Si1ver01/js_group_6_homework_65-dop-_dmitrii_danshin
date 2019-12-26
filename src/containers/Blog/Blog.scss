@@ -1,0 +1,21 @@
+.MainPage{
+  flex-grow: 1;
+  background: linear-gradient(to right, #bc4e9c, #f80759);
+  overflow-y: scroll;
+  h1{
+    margin: 10px 0;
+    color: #ffffff;
+    font-size: 36px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    svg{
+      padding-left: 5px;
+    }
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
